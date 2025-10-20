@@ -1,0 +1,3 @@
+Quantidade de processos por tipo de paciente: 
+Normal: 3
+Estudante: 2

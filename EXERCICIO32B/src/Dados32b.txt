@@ -1,0 +1,5 @@
+Mexicana;2
+Havaiana;1
+Regina;3
+Mexicana;1
+Regina;2

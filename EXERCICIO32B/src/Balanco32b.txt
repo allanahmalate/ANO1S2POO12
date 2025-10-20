@@ -1,0 +1,5 @@
+Mexicana;1,500.00Mts
+Havaiana;620.00Mts
+Regina;1,500.00Mts
+Mexicana;750.00Mts
+Regina;1,000.00Mts

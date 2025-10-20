@@ -1,0 +1,6 @@
+António Silva;15/03/1970;5;Assalto
+Bela Duarte;22/10/1985;15;Homicídio
+Carlos Neto;01/05/1995;10;Assalto
+Diana Gomes;10/12/1960;Vitalício;Homicídio
+Ernesto Langa;05/08/1980;1;Assalto
+Felismina Pinto;30/11/1975;25;Homicídio

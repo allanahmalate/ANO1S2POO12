@@ -1,0 +1,5 @@
+Estudante;sim;6
+Normal;nao;2
+Exclusivo;sim;3
+Estudante;nao;1
+Normal;sim;15

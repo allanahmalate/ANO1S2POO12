@@ -1,0 +1,5 @@
+P001;Sofia Afonso;Extracao;Estudante
+P002;Tomas Benjamim;Limpeza;Normal
+P003;Vera Carla;Extracao;Estudante
+P004;Rui Dias;Limpeza;Normal
+P005;Marta Eugenio;Extracao;Normal
