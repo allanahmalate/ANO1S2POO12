@@ -25,3 +25,7 @@ public class EscreverFicheiro
 	}
   }
 }
+//goods; food; 
+
+//COTOVEL 12 11 26 20 20 
+//MASSARIL; I; F; 12/11/26 20 20

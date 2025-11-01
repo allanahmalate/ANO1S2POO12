@@ -19,8 +19,9 @@ public class Massa implements Serializable
         vp = calcVP();
         vd = calcD();
         vp -= vd;
-        viva = calcIVA();
+        viva = calcIVA(16/100f);
         vp += viva;
+        
         mt = new DecimalFormat("###,###,###.00 MTS");
     }
 
@@ -39,9 +40,8 @@ public class Massa implements Serializable
         return pU * qtd;
     }
 
-    public float calcIVA()
+    public float calcIVA(float IVA)
     {
-        final float IVA = 16/100f;
         return vp * IVA;
     }
 

@@ -26,7 +26,8 @@ public class Menu
   public void menu()
   {
 	int op;
-	Validacoes val = new Validacoes();
+	boolean passou = false;
+	Validacoes val = new Validacoes();    //wood
 	TodasMassas m = new TodasMassas();
 	
 	do
@@ -36,23 +37,35 @@ public class Menu
 	  System.out.println("2. Visualizar os dados");
 	  System.out.println("3. Valor total com IVA, por forma");
 	  System.out.println("4. Escrever no ficheiro quantidade de marcas com inicial 'M'");
+	  System.out.println("6. Escrever os dados em um ficheiro de objectos");
 	  System.out.println("5. Tipo de massa mais em stock!");
-	  System.out.println("6. Pesquisar massa com base na marca");
-	  System.out.println("7. Escrever os dados em um ficheiro de objectos");
-	  System.out.println("8. Sair do programa");
+	  System.out.println("7. ler os dados em um ficheiro de objectos");
+	  System.out.println("8. Pesquisar massa com base na marca");
+	  System.out.println("9. Sair do programa");
 	  
 	  op = val.validarInt(1, 8, "Introduza a opcao(1-8)");
 	  
 	  switch(op)
 	  {
-	  case 1: m.lerDoFicheiro("C:\\Users\\allan\\OneDrive\\Documents\\ClinicaDentariaPOOFichTexto\\FABRICA_MASSA\\DadosM.txt"); break;
-	  case 2: m.adapVisualizarDados(); break;
-	  case 3: m.adapTotalDesconto(); break;
-	  case 4: m.adapContarTipo(); break;
-	  case 5: m.adapContarServico(); break;
-	  case 6: m.adapPesquisarObjecto(); break;
-	  case 7: m.escrevernoFichOBJ("C:\\Users\\allan\\OneDrive\\Documents\\ClinicaDentariaPOOFichTexto\\FABRICA_MASSA\\Balanco.txt"); break;
-	  }
-	} while(op!=8);
+	  case 1: m.lerDoFicheiro("C:\\Users\\allan\\OneDrive\\Documents\\ClinicaDentariaPOOFichTexto\\FABRICA_MASSA\\DadosM.txt"); 
+	          passou = true ;break;
+	  case 2: 
+			if(!passou)
+	           System.out.println("Primeiro tem que ler os dados do ficheiro!");
+	         else					
+	  			m.adapVisualizarDados(); break;
+	  case 3: m.adapValorTotal(); break; //por forma
+	  case 4: m.adapEscreverFicheiro(); break;
+	  case 5: m.adapContarTotal(); break;
+	  case 6: m.adapContarTotal(); break;
+	  case 7: m.escrevernoFichOBJ("C:\\Users\\allan\\OneDrive\\Documents\\ClinicaDentariaPOOFichTexto\\FABRICA_MASSA\\Balanco.txt"); break;  
+	  case 8: m.adapPesquisarObjecto(); break;
+	  case 9: System.out.println("Adeus!"); break;  
+	}
+	} while(op!=9);
   }
 }
+
+//nOVAS CONTAS PARA SEGUIR 
+
+//SAO DE TECH STUFF DE MOZ

@@ -1,0 +1,8 @@
+Marillan;Integral;Cotovelo;27/08/2006;2;100
+Nike;Trigo;Fettucini;16/06/2005;50;200
+Adidas;Trigo;Esparguete;12/10/2025;1;150
+Maxed;Integral;Cotovelo;30/08/2026;100;400
+Puma;Integral;Cotovelo;12/03/2027;7;250
+Samsung;Integral;Fettucine;01/02/2029;30;400
+Nvidia;Trigo;Cotovelo;02/03/2028;60;400
+Zara;Integral;Cotovelo;11/11/2021;85;54
